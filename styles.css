@@ -493,6 +493,8 @@ h6 {
 }
 
 .app__form-footer__button--confirm {
+  justify-content: center;
+  align-items: center;
   border-radius: 3.2rem;
   padding: 0.8rem 2.4rem;
   color: #fff;
@@ -524,4 +526,12 @@ h6 {
   color: #e6e6e6;
   opacity: 0.8;
   cursor: not-allowed;
+}
+
+.app__form-footer__button--delete {
+  padding-left: 0;
+}
+
+.app__form-footer__button--cancel {
+  padding-left: 0;
 }
